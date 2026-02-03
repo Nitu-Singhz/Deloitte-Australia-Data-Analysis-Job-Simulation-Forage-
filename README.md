@@ -7,7 +7,8 @@ This repository documents my work from the Deloitte Australia Data Analysis Job 
 The simulation consisted of two key tasks, where I worked with tools such as Tableau and Microsoft Excel to extract insights and present findings clearly.
 
 🧩 Tasks Completed
-🔹 Task 1: Telemetry Data Analysis & Visualization (Tableau)
+
+🎯 Task 1: Telemetry Data Analysis & Visualization (Tableau)
 
 In this task, I analyzed machine telemetry data for a client named Daikibo, a manufacturing company operating across multiple global locations.
 
@@ -61,23 +62,24 @@ Designed an interactive dashboard:
 
 🔹Enabled the factory chart as a filter, so selecting a factory updates machine-level downtime
 
-🔹Identified the factory with the highest downtime and captured a dashboard screenshot as final output
+🔹[Identified the factory with the highest downtime and captured a dashboard screenshot as final output](https://github.com/Nitu-Singhz/Deloitte-Australia-Data-Analysis-Job-Simulation-Forage-/blob/main/Screenshot%202026-02-02%20184417.png)
 
-🔹 Task 2: Forensic Technology – Gender Pay Equality Analysis (Excel)
+
+🎯 Task 2: Forensic Technology – Gender Pay Equality Analysis (Excel)
 
 In this task, I worked from a forensic technology perspective to help Daikibo Industrials investigate internal complaints related to gender-based salary inequality across different job roles and factory locations.
 
 🧾 Background
 
-After receiving several internal complaints regarding gender pay inequality, Daikibo Industrials initiated an internal investigation. The forensic technology team developed an algorithm to quantify gender pay equality levels across job roles and locations. As part of the team, my responsibility was to complete the analysis and help the client draw clear conclusions from the data.
+🔹After receiving several internal complaints regarding gender pay inequality, Daikibo Industrials initiated an internal investigation. The forensic technology team developed an algorithm to quantify gender pay equality levels across job roles and locations. As part of the team, my responsibility was to complete the analysis and help the client draw clear conclusions from the data.
 
 The processed data was provided in an Excel file named Equality Table.xlsx, containing the following columns:
 
-Factory
+🔹Factory
 
-Job Role
+🔹Job Role
 
-Equality Score (integer ranging from -100 to +100, where 0 represents ideal equality)
+🔹Equality Score (integer ranging from -100 to +100, where 0 represents ideal equality)
 
 🎯 Objective
 
@@ -85,17 +87,17 @@ To classify job roles based on the severity of gender pay inequality by creating
 
 🛠️ Steps Performed in Excel
 
-Analyzed the provided equality scores across factories and job roles
+🔹Analyzed the provided equality scores across factories and job roles
 
-Added a 4th column named Equality Class
+🔹Added a 4th column named Equality Class
 
-Classified each record using logical conditions:
+🔹Classified each record using logical conditions:
 
-Fair: Equality Score between -10 and +10
+🔸Fair: Equality Score between -10 and +10
 
-Unfair: Equality Score less than -10 or greater than +10
+🔸Unfair: Equality Score less than -10 or greater than +10
 
-Highly Discriminative: Equality Score less than -20 or greater than +20
+🔸Highly Discriminative: Equality Score less than -20 or greater than +20
 
 Used Excel formulas to automate classification and ensure consistency
 
@@ -107,13 +109,13 @@ To classify the equality scores objectively, I used a nested IF function with th
 
 Explanation:
 
-ABS(C2) converts negative and positive scores to their absolute value
+🔸ABS(C2) converts negative and positive scores to their absolute value
 
-<= 10 → Fair
+🔸<= 10 → Fair
 
-<= 20 → Unfair
+🔸<= 20 → Unfair
 
-> 20 → Highly Discriminative
+🔸> 20 → Highly Discriminative
 
 📌 Examples
 
@@ -123,49 +125,41 @@ ABS(C2) converts negative and positive scores to their absolute value
 
 -30 → Highly Discriminative
 
-The final output enabled the forensic team to quickly identify high-risk job roles and locations, supporting further investigation and corrective action.
+🔹[The final output enabled the forensic team to quickly identify high-risk job roles and locations, supporting further investigation and corrective action.](https://github.com/Nitu-Singhz/Deloitte-Australia-Data-Analysis-Job-Simulation-Forage-/blob/main/Task%205%20Equality%20Table.xlsx)
 
 This task strengthened my ability to:
 
-Apply forensic thinking to real HR datasets
+🔹Apply forensic thinking to real HR datasets
 
-Use Excel for data classification and rule-based analysis
+🔹Use Excel for data classification and rule-based analysis
 
-Translate numerical scores into clear, business-actionable insights
+🔹Translate numerical scores into clear, business-actionable insights
 
 🧠 Key Learnings
 
-Practical exposure to real-world business data analysis
+🔹Practical exposure to real-world business data analysis
 
-Hands-on experience with Tableau dashboards and filters
+🔹Hands-on experience with Tableau dashboards and filters
 
-Understanding of machine telemetry data and downtime analysis
+🔹Understanding of machine telemetry data and downtime analysis
 
-Improved analytical thinking and forensic problem-solving
+🔹Improved analytical thinking and forensic problem-solving
 
-Translating technical findings into business-relevant insights
+🔹Translating technical findings into business-relevant insights
 
 🧰 Skills Demonstrated
 
-Data Analysis
+➡️Data Analysis
 
-Data Visualization (Tableau)
+➡️Data Visualization (Tableau)
 
-Dashboard Design
+➡️Dashboard Design
 
-Excel-based Analysis
+➡️Excel-based Analysis
 
-Business Insight Generation
+➡️Business Insight Generation
 
-Forensic Technology Concepts
-
-📂 Repository Contents
-
-Tableau dashboards (screenshots / files if applicable)
-
-Supporting documentation
-
-README explaining the project and approach
+➡️Forensic Technology Concepts
 
 🔖 Acknowledgment
 
